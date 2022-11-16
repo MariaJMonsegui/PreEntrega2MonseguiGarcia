@@ -297,7 +297,7 @@ section p {
 
     /*estilos del main proyectos colaboraciones*/
 
-    .main-contenedor,{
+    .main-contenedor{
         display: grid;
         grid-template-columns: 3fr 3fr 3fr;
         grid-template-rows: 4fr 4fr;
@@ -360,7 +360,7 @@ section p {
 
     /*estilos del main colaboraciones*/
 
-    .main-contenedor2,{
+    .main-contenedor2{
         display: grid;
         grid-template-columns: 2fr 2fr 2fr;
         grid-template-rows: 4fr 4fr;
