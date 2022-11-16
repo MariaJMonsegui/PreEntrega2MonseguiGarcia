@@ -73,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    
+
 }
 
 .main-contenedor img {
@@ -121,25 +121,25 @@ body {
 
 /*estilos del main nosotros*/
 
-section{
+section {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-section h5{
+section h5 {
     text-align: center;
     margin-top: 10%;
     margin-bottom: 5%;
 }
 
-section p{
+section p {
     width: 80%;
     text-align: justify;
     margin-left: 10%;
 }
 
-.foto-nosotros{
+.foto-nosotros {
     display: none;
 }
 
@@ -156,8 +156,8 @@ section p{
 
 .form-secciones {
     align-items: center;
-    height:10%;
-    padding-left:1%;
+    height: 10%;
+    padding-left: 1%;
     margin-bottom: 5%;
 }
 
@@ -166,7 +166,7 @@ section p{
     padding-left: 30px;
 }
 
-.form legend{
+.form legend {
     margin-left: 8%;
     margin-bottom: 5%;
 }
@@ -291,14 +291,42 @@ section p{
 
     .main-contenedor {
         display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
-        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 3fr 3fr;
+        justify-content: center;
     }
 
+    .img-1 {
+        width: 100%;
+        margin-left: 15%;
+    }
 
-    /*
-    .main-contenedor img{
-        width: 30%;
+    .img-2 {
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .img-3 {
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .img-4 {
+        width: 100%;
+        margin-left: 15%;
+        margin-bottom: 15%;
+    }
+
+    .img-5 {
+        width: 100%;
+        margin-left: 15%;
+        margin-bottom: 15%;
+    }
+
+    .img-6 {
+        width: 100%;
+        margin-left: 15%;
+        margin-bottom: 15%;
     }
 
     .main-titulo {
@@ -307,14 +335,14 @@ section p{
         text-align: center;
         padding-top: 6rem;
     }
-    
+
     .main-titulo h1 {
         font-weight: 300;
         text-align: center;
         color: #262626;
         font-size: 20px;
     }
-    
+
     .main-tituloh2 h1 {
         font-weight: 300;
         text-align: center;
@@ -322,7 +350,7 @@ section p{
         font-size: 18px;
     }
 
-    .main-contenedor img:hover{
+    .main-contenedor img:hover {
         transform: scale(1.01);
     }
 
@@ -335,7 +363,7 @@ section p{
         margin-bottom: 10%;
     }
 
-    .main-contenedor2 img{
+    .main-contenedor2 img {
         width: 30%;
     }
 
@@ -345,14 +373,14 @@ section p{
         text-align: center;
         padding-top: 6rem;
     }
-    
+
     .main-titulo h1 {
         font-weight: 300;
         text-align: center;
         color: #262626;
         font-size: 20px;
     }
-    
+
     .main-tituloh2 h1 {
         font-weight: 300;
         text-align: center;
@@ -360,43 +388,43 @@ section p{
         font-size: 18px;
     }
 
-    .main-contenedor2 img:hover{
+    .main-contenedor2 img:hover {
         transform: scale(1.01);
     }
 
     /*estilos nosotros*/
 
-    .foto-nosotros{
+    .foto-nosotros {
         display: block;
     }
 
-    section{
+    section {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 4fr;
-        grid-template-areas: 
+        grid-template-areas:
             'h5 img'
             'p img';
         justify-content: center;
         justify-items: center;
     }
-    
-    section h5{
+
+    section h5 {
         grid-area: h5;
         margin-top: 20%;
         margin-left: 40%;
     }
-    
-    
-    section p{
+
+
+    section p {
         grid-area: p;
         width: 100%;
         text-align: justify;
         margin-left: 40%;
         margin-top: 5%;
     }
-    
-    section img{
+
+    section img {
         grid-area: img;
         width: 45%;
         margin-top: 10%;
