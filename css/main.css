@@ -17,6 +17,7 @@ body {
 
 .menu-sections li {
     color: black;
+
 }
 
 .menu-sections a {
@@ -287,9 +288,10 @@ section p {
         margin-bottom: 7%;
     }
 
-    /*estilos del main proyectos*/
+    /*estilos del main proyectos colaboraciones*/
 
-    .main-contenedor {
+    .main-contenedor,
+    .main-contenedor2 {
         display: grid;
         grid-template-columns: 3fr 3fr 3fr;
         grid-template-rows: 3fr 3fr;
