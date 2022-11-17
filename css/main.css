@@ -295,7 +295,7 @@ section p {
         margin-bottom: 7%;
     }
 
-    /*estilos del main proyectos colaboraciones*/
+    /*estilos del main proyectos proyectos*/
 
     .main-contenedor{
         display: grid;
@@ -305,28 +305,28 @@ section p {
     }
 
     .img-1 {
-        width: 30%;
+        width: 100%;
     }
 
     .img-2 {
-        width: 30%;
+        width: 100%;
     }
 
     .img-3 {
-        width: 30%;
+        width: 100%;
 
     }
 
     .img-4 {
-        width: 30%;
+        width: 100%;
     }
 
     .img-5 {
-        width: 30%;
+        width: 100%;
     }
 
     .img-6 {
-        width: 30%;
+        width: 100%;
     }
 
     .titulo-img{
@@ -368,37 +368,37 @@ section p {
     }
 
     .img-11 {
-        width: 30%;
+        width: 100%;
         margin-bottom: 5%;
         margin-left: 5%;
     }
 
     .img-21 {
-        width: 30%;
+        width: 100%;
         margin-bottom: 5%;
         margin-left: 1%;
     }
 
     .img-31 {
-        width: 30%;
+        width: 100%;
         margin-bottom: 5%;
         margin-left: 1%;
     }
 
     .img-41 {
-        width: 30%;
+        width: 100%;
         margin-bottom: 5%;
         margin-left: 5%;
     }
 
     .img-51 {
-        width: 30%;
+        width: 100%;
         margin-bottom: 5%;
         margin-left: 1%;
     }
 
     .img-61 {
-        width: 30%;
+        width: 100%;
         margin-bottom: 5%;
         margin-left: 1%;
     }
